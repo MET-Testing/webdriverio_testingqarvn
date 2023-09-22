@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "dependencies": {
+    "webdriverio": "^8.16.12"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^8.16.12",
+    "@wdio/local-runner": "^8.16.12",
+    "@wdio/mocha-framework": "^8.16.12",
+    "@wdio/spec-reporter": "^8.16.12"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  }
+}
